@@ -1,0 +1,43 @@
+site_name: Cyber Fidget Docs
+site_url: https://docs.cyberfidget.com/
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: cyan
+      accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.tabs.link
+    - toc.integrate
+nav:
+  - Home: index.md
+  - Getting started:
+    - Overview: getting-started/overview.md
+    - First flash (Arduino): getting-started/first-flash-arduino.md
+    - First flash (CircuitPython): getting-started/first-flash-circuitpython.md
+  - Hardware:
+    - Specs: hardware/specs.md
+    - Pinout: hardware/pinout.md
+  - Software:
+    - Apps: software/apps.md
+    - Storage & SD: software/storage.md
+    - OTA / Builder: software/ota-builder.md
+  - Contribute: contribute.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/thesamsteele

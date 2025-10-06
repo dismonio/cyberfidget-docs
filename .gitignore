@@ -1,0 +1,16 @@
+# Python venv and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# MkDocs build output
+site/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
